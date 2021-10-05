@@ -7,11 +7,21 @@ El lado del cliente del proyecto Scouting fué desarrollado con el framework [Vu
 npm install
 ```
 
-2. Una vez instalada las dependencias ejecutamos el comando `npm run serve` para levantar el servidor.
+2. Una vez instaladas las dependencias configuramos las variables de entorno necesarias, para esto creamos el archivo `.env` en la raiz del directorio con lo siguiente.
+```
+#LOCAL
+VUE_APP_API_URL=http://localhost:4000/api
+
+#PROD
+#VUE_APP_API_URL=http://54.252.174.218:4000/api
+```
+
+
+3. Ejecutamos el comando `npm run serve` para correr el servidor.
 ```
 npm run serve
 ```
-3. Una vez iniciado el servidor ingresamos a la url `http://localhost:8080/`
+4. Una vez iniciado el servidor ingresamos a la url `http://localhost:8080/`
 
 <img :src="$withBase('/img/client/01.png')">
 
