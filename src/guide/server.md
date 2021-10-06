@@ -1,5 +1,7 @@
-# 03 Servidor
+# 03 Scouting-serve
 El lado del servidor del proyecto Scouting fué desarrollado con [Node.js](https://nodejs.org/en/)
+A continuación se detallaran los pasos necesarios para configurar la aplicación Scouting del lado del servidor.
+
 
 ## Configuración
 1. Dentro del directorio `scouting-serve` ejecutamos el comando `npm install` para la instalacion de dependencias necesarias.

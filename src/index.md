@@ -13,7 +13,12 @@ actionLink: /guide/
   #details: Feature 3 Description
 # footer: Made by  with ❤️
 ---
-## Configuración
-* [Guía](/guide/)
+## Configuraciones
+* [Guía de configuración entorno de desarrollo cliente-servidor](/guide/)
 
-## Estructura de directorios
+## Cliente (Vuejs)
+* [Información](/client/)
+
+
+## Servidor (Nodejs)
+* (En desarrrollo..)

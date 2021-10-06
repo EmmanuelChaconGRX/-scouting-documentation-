@@ -1,5 +1,6 @@
-# 02 Cliente
-El lado del cliente del proyecto Scouting fué desarrollado con el framework [Vue.js](https://vuejs.org/)
+# 02 Scouting-client
+
+A continuación se detallaran los pasos necesarios para configurar la aplicación Scouting del lado del cliente.
 
 ## Configuración
 1. Dentro del directorio `scouting-client` ejecutamos el comando `npm install` para la instalacion de dependencias necesarias.

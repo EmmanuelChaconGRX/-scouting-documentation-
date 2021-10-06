@@ -1,5 +1,5 @@
 # 01 Primeros pasos
-Vamos a comenzar con las instalaciones necesarias para configurar el proyecto Scouting.
+Vamos a comenzar con las instalaciones necesarias para configurar la aplicación Scouting.
 
 ## Instalaciónes necesarias
 * [https://nodejs.org/es/](https://nodejs.org/es/)
@@ -7,7 +7,7 @@ Vamos a comenzar con las instalaciones necesarias para configurar el proyecto Sc
 * [https://www.postgresql.org/](https://www.postgresql.org/)
 * [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-## Clonación
+## Clonación del proyecto
  Continuamos con la clonación del repositorio Scouting
  ```
  git clone https://emmanuelgrx@bitbucket.org/boomstats/scouting.git

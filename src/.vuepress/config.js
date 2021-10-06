@@ -34,28 +34,41 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guía',
+        text: 'Configuraciones',
         link: '/guide/',
       },
-     /*  {
-        text: 'Config',
-        link: '/config/'
-      }, */
-      /* {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      } */
+      {
+        text: 'Cliente (Vuejs)',
+        link: '/client/'
+      },
+      {
+        text: 'Servidor (Nodejs',
+        link: '/server/'
+      }
     ],
     sidebar: {
       '/guide/': [
         {
-          title: 'Guía',
+          title: 'Guía de configuración',
           collapsable: false,
           children: [
             '',
             'first_steps',
             'client',
             'server'
+          ]
+        }
+      ],
+      '/client/': [
+        {
+          title: 'Información',
+          collapsable: false,
+          children: [
+            '',
+            'mockups',
+            'vuejs',
+            'libraries',
+            'estructure',
           ]
         }
       ],

@@ -1,6 +1,6 @@
 # Introducción
 
-Está guía está diseñada para poder configurar el entorno de desarrollo Scouting.
+Está es una guía de configuracion cliente-servidor desarrollada para la aplicación Scouting.
 
 
 
