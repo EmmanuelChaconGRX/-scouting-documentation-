@@ -8,7 +8,7 @@ A continuación se detallaran los pasos necesarios para configurar la aplicació
 npm install
 ```
 
-2. Una vez instaladas las dependencias configuramos las variables de entorno necesarias, para esto creamos el archivo `.env` en la raiz del directorio con lo siguiente.
+2. Una vez instaladas las dependencias configuramos las variables de entorno necesarias, para esto creamos el archivo `.env` en la raiz del proyecto con lo siguiente.
 ```
 #LOCAL
 VUE_APP_API_URL=http://localhost:4000/api

@@ -38,11 +38,11 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Cliente (Vuejs)',
+        text: 'Front-end (Vuejs)',
         link: '/client/'
       },
       {
-        text: 'Servidor (Nodejs',
+        text: 'Back-end (Nodejs)',
         link: '/server/'
       }
     ],
@@ -67,6 +67,18 @@ module.exports = {
             '',
             'mockups',
             'vuejs',
+            'libraries',
+            'estructure',
+          ]
+        }
+      ],
+      '/server/': [
+        {
+          title: 'Información',
+          collapsable: false,
+          children: [
+            '',
+            'nodejs',
             'libraries',
             'estructure',
           ]

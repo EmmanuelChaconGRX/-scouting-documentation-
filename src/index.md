@@ -16,9 +16,9 @@ actionLink: /guide/
 ## Configuraciones
 * [Guía de configuración entorno de desarrollo cliente-servidor](/guide/)
 
-## Cliente (Vuejs)
+## Front-end (Vuejs)
 * [Información](/client/)
 
 
-## Servidor (Nodejs)
-* (En desarrrollo..)
+## Back-end (Nodejs)
+* [Información](/server/)

@@ -1,6 +1,6 @@
 # 03 Librerias
 
-A continuación la informacíon de algunas librerias importantes que se utilizaron para el desarrollo de la aplicacion Scouting.
+A continuación la informacíon de algunas librerias importantes que se utilizaron para el desarrollo de la aplicacion Scouting del lado del cliente.
 
 ## Vuetify
 [https://vuetifyjs.com/en/](https://vuetifyjs.com/en/)
@@ -41,3 +41,8 @@ Vue Router es el enrutador oficial de Vue.js (abre una nueva ventana). Se integr
 Axios es una biblioteca cliente HTTP. Utiliza `promesas` de forma predeterminada y se ejecuta tanto en el cliente como en el servidor, lo que lo hace apropiado para recuperar datos durante la renderización del lado del servidor. 
 
 [Info](https://www.digitalocean.com/community/tutorials/vuejs-rest-api-axios#:~:text=Axios%20is%20an%20HTTP%20client,data%20during%20server%2Dside%20rendering.&text=js%20project%20for%20tasks%20involving,creating%20a%20reusable%20base%20instance.)
+
+## vue-soccer-field
+[https://www.npmjs.com/package/vue-soccer-field](https://www.npmjs.com/package/vue-soccer-field)
+
+vue-soccer-field es un libreria utilizada en la sección `match` del proyecto para emular alineaciones sobre un tablero de campo de juego.
