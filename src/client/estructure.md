@@ -2,7 +2,78 @@
 
 ## Arbol de directorios (Front-end)
 
-<img :src="$withBase('/img/client/02.png')">
+```
+.
+├── babel.config.js
+├── node_modules
+├── package.json
+├── package-lock.json
+├── public
+│   ├── favicon.ico
+│   └── index.html
+├── README.md
+├── src
+│   ├── App.vue
+│   ├── assets
+│   │   ├── css
+│   │   │   └── style.css
+│   │   ├── grass.png
+│   │   ├── img
+│   │   │   ├── analytics.png
+│   │   │   ├── athlete_avatar.png
+│   │   │   ├── bsa_logo.png
+│   │   │   ├── fitbit.png
+│   │   │   ├── graphic1.png
+│   │   │   ├── graphic2.png
+│   │   │   ├── graphic3.png
+│   │   │   ├── graphic4.png
+│   │   │   ├── graphic5.png
+│   │   │   ├── match.png
+│   │   │   ├── profile_avatar.png
+│   │   │   ├── table_compare.png
+│   │   │   └── team_avatar.png
+│   │   ├── logo.png
+│   │   └── logo.svg
+│   ├── components
+│   │   ├── Athlete
+│   │   │   └── Dashboard_athlete.vue
+│   │   ├── Club
+│   │   │   └── Dashboard_club.vue
+│   │   ├── HelloWorld.vue
+│   │   ├── index.js
+│   │   ├── Login.vue
+│   │   ├── Register.vue
+│   │   ├── Scout
+│   │   │   └── Dashboard_scout.vue
+│   │   ├── vue-soccer-field.scss
+│   │   └── vue-soccer-field.vue
+│   ├── enums
+│   │   ├── orientation.js
+│   │   └── system.js
+│   ├── main.js
+│   ├── plugins
+│   │   └── vuetify.js
+│   ├── router
+│   │   └── index.js
+│   ├── store
+│   │   └── index.js
+│   └── views
+│       ├── About.vue
+│       ├── Athletes-club-list.vue
+│       ├── Athletes-list.vue
+│       ├── Athletes-scout-list.vue
+│       ├── Club-athlete-dashboard.vue
+│       ├── Home.vue
+│       ├── Match.vue
+│       ├── Scout-athlete-dashboard.vue
+│       ├── Team-club-list.vue
+│       └── Team-club.vue
+└── vue.config.js
+
+15 directories, 50 files
+```
+
+## Detalles
 
 | File / Dir      | Meaning |
 | ----------- | ----------- |

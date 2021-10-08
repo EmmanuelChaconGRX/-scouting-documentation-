@@ -24,7 +24,8 @@ npm run serve
 ```
 4. Una vez iniciado el servidor ingresamos a la url `http://localhost:8080/`
 
-<img :src="$withBase('/img/client/01.png')">
+ [![](/img/client/01.png)](/img/client/01.png)
+
 
 
 

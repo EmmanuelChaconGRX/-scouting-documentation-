@@ -128,7 +128,20 @@
 | `/src/database/database_conection.js`   | Fichero donde se setean las credenciales necesarias para la conexión con la base de datos postgresql ya sea local o de producción, dichas credenciales deben ser definidas en el archivo `.env` en la raiz del proyecto.    |
 | `/src/database/scripts/changes`   | Carpeta que contiene todos los scripts del proyecto los cuales deben ejecutarse de forma secuencial.  |
 | `/src/lib/aws`   | Fichero donde se setean las credenciales necesarias para la conexión con el bucket de AWS que es donde se almacenan las imagenes, videos del proyecto, dichas credenciales deben ser definidas en el archivo `.env` en la raiz del proyecto.  |
-| `/src/middlewares/autentication.js`   |  |
+| `/src/middlewares/autentication.js`   | Fichero que contiene las funciones para verificar la autenticación de usuarios mediante la libreria JSON Web Tokens |
+| `/src/public`   | Contiene todo el contenido estático |
+| `/src/public/uploads`   | Carpeta que contendrá las imagenes y videos estaticos que serán almacenados en el bucket de AWS |
+| `/src/routes`   | Carpeta donde se encuentran definidas las rutas de la aplicación |
+| `/src/routes/athlete.routes.js`   | Fichero donde se encuentran definidas las rutas referentes a un usuario tipo atleta |
+| `/src/routes/scout.routes.js`   | Fichero donde se encuentran definidas las rutas referentes a un usuario tipo scout |
+| `/src/routes/user.routes.js`   | Fichero donde se encuentran definidas las rutas referentes a un usuario tipo club, ademas de las rutas para el login y registro de usuario |
+| `/src/routes/general.routes.js`   | Fichero donde se encuentran definidas las rutas generales para usuarios tipo atleta, socut y club |
+| `/src/routes/note.routes.js`   | Fichero donde se encuentran definidas las rutas referentes a la funcion `quick notes` de la sección `match` |
+| `/src/routes/allData.routes.js`   | Fichero donde se encuentran definidas las rutas referentes a la funcion `all data` de la sección `match` |
+| `/src/routes/teamSheet.routes.js`   | Fichero donde se encuentran definidas las rutas referentes a la funcion `team sheet` de la sección `match` |
+
+
+
 
 
 

@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: http://igwtech.net/greicodex/wp-content/uploads/2016/09/logo-1.png
-tagline: Documentación del proyecto Scouting
-actionText: Empezar →
+tagline: Documentación del Proyecto Scouting
+actionText: Iniciar ->
 actionLink: /guide/
 #features:
 #- title: Feature 1 Title
@@ -13,12 +13,15 @@ actionLink: /guide/
   #details: Feature 3 Description
 # footer: Made by  with ❤️
 ---
-## Configuraciones
-* [Guía de configuración entorno de desarrollo cliente-servidor](/guide/)
+## Guía de configuración (cliente-servidor)
+* [Iniciar](/guide/)
 
 ## Front-end (Vuejs)
-* [Información](/client/)
+* [Iniciar](/client/)
 
 
 ## Back-end (Nodejs)
-* [Información](/server/)
+* [Iniciar](/server/)
+
+## Documentos
+* [Ver](/documents/)

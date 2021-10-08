@@ -34,7 +34,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Configuraciones',
+        text: 'Configuraciones (guía)',
         link: '/guide/',
       },
       {
@@ -44,6 +44,10 @@ module.exports = {
       {
         text: 'Back-end (Nodejs)',
         link: '/server/'
+      },
+      {
+        text: 'Documentos',
+        link: '/documents/'
       }
     ],
     sidebar: {
@@ -81,6 +85,18 @@ module.exports = {
             'nodejs',
             'libraries',
             'estructure',
+            'database'
+          ]
+        }
+      ],
+      '/documents/': [
+        {
+          title: 'Información',
+          collapsable: false,
+          children: [
+            '',
+            'customer',
+            'me'
           ]
         }
       ],
