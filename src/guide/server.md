@@ -116,7 +116,11 @@ INSERT INTO play (name, last_name, description) VALUES ('PLAY 1', 'title PLAYs 1
 
 <img :src="$withBase('/img/server/01.png')">
 
-4. A continuación Configuramos las variables de entorno necesarias, para esto creamos el archivo `.env` en la raiz del proyecto con las configuraciones para el puerto en el cual correra el servidor, el acceso a la base de datos local o prod y los accesos al bucket de AWS que se creó para el almacenamiento de imagenes.
+
+4. Se puede obviar el punto 2 y 3 descargando y ejecutando el siguiente script.
+[https://drive.google.com/file/d/1uteTDkp0PrjXSERi8selmAaL3K_CWSSW/view?usp=sharing](https://drive.google.com/file/d/1uteTDkp0PrjXSERi8selmAaL3K_CWSSW/view?usp=sharing)
+
+5. A continuación Configuramos las variables de entorno necesarias, para esto creamos el archivo `.env` en la raiz del proyecto con las configuraciones para el puerto en el cual correra el servidor, el acceso a la base de datos local o prod y los accesos al bucket de AWS que se creó para el almacenamiento de imagenes.
 ```
 PORT=4000
 

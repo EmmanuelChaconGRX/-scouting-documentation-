@@ -5,7 +5,6 @@ Vamos a comenzar con las instalaciones necesarias para configurar la aplicación
 * [https://nodejs.org/es/](https://nodejs.org/es/)
 * [https://cli.vuejs.org/guide/prototyping.html](https://cli.vuejs.org/guide/prototyping.html)
 * [https://www.postgresql.org/](https://www.postgresql.org/)
-* [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ## Clonación del proyecto
  Continuamos con la clonación del repositorio Scouting
