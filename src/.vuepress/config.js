@@ -85,7 +85,7 @@ module.exports = {
             'nodejs',
             'libraries',
             'estructure',
-            'database'
+            'database',
           ]
         }
       ],
@@ -97,6 +97,17 @@ module.exports = {
             '',
             'customer',
             'me'
+          ]
+        }
+      ],
+      '/deploy/': [
+        {
+          title: 'Información',
+          collapsable: false,
+          children: [
+            '',
+            'deploy-client',
+            'deploy-server'
           ]
         }
       ],
